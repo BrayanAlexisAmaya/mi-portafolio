@@ -1,0 +1,220 @@
+.ImagenPerfil{
+    position: absolute;
+    top: 60px;
+    left: 70px;
+    border-radius: 1500px;
+    height: 150px;
+    width: 150px;
+}
+html{
+    background-color: rgb(37, 37, 37);
+}
+body{
+    background: linear-gradient(to right, white 300px, rgb(221, 221, 221) 10px);
+    font-family: arial;
+    width: 930px;
+    position: relative;
+    left: 220px;
+}
+.name{
+    font-size: 55px;
+    position: absolute;
+    top: -5px;
+    width: 60%;
+    height: 20%;
+    left: 500px;
+}
+.profesion{
+    position: absolute;
+    font-size: 20px;
+    width: 60%;
+    height: 50%;
+    left: 420px;
+    top: 150px;
+}
+.TituloPerfil{
+    font-size: 35px;
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    top: 200px;
+    left: 33px;
+    color: rgb(119, 118, 118);
+}
+.BarraC1{
+    left: 33px;
+    height: 8px;
+    width: 85px;
+    top: 280px;
+    position: absolute;
+    background-color: rgb(119, 118, 118);
+}
+.TextoPerfil{
+    width: 210px;
+    position: relative;
+    left: 33px;
+    top: 305px;
+    font-size: 15,2px;
+    color: rgb(98, 98, 98);
+}
+.TituloHabilidades{
+    font-size: 35px;
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    top: 180px;
+    left: 340px;
+    color: rgb(119, 118, 118);
+}
+.BarraC2{
+    left: 340px;
+    height: 8px;
+    width: 85px;
+    top: -120px;
+    position: relative;
+    background-color: rgb(119, 118, 118);
+}
+.Habilidades{
+    position: absolute;
+    color:rgb(98, 98, 98);
+    left: 340px;
+    top: 290px;
+    font-size: 15,2px;
+    width: 470px;
+}
+.TituloEducacion{
+    font-size: 35px;
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    top: 500px;
+    left: 340px;
+    color: rgb(119, 118, 118);
+}
+.BarraC3{
+    left: 340px;
+    height: 8px;
+    width: 85px;
+    top: 585px;
+    position: absolute;
+    background-color: rgb(119, 118, 118);
+}
+.LineaPunteada{
+    width: 50%;
+    height: 20%;
+    position: relative;
+    left: 340px;
+    top: 225px;
+    color: white;
+    font-size: 30px;
+    line-height: 15px;
+}
+.Fecha1{
+    color:rgb(98, 98, 98);
+    position: absolute;
+    top: 630px;
+    left: 390px;
+    width: 70%;
+    height: 20%;
+}
+.Colegio{
+    position: absolute;
+    top: 660px;
+    left: 390px;
+    width: 440px;
+}
+.Fecha2{
+    color: rgb(98, 98, 98);
+}
+.Ubi{
+    width: 30px;
+    height: 30px;
+    top: 6px;
+    position: relative;
+}
+.Contactos{
+    position: relative;
+    top: -155px;
+    left: 33px;
+}
+.Contac{
+    font-size: 35px;
+    width: 60%;
+    height: 20%;
+    color: rgb(119, 118, 118);
+}
+.BarraC4{
+    left: -30px;
+    height: 8px;
+    width: 85px;
+    top: -45px;
+    position: relative;
+    background-color: rgb(119, 118, 118);
+}
+.Direc{
+    width: 210px;
+    position: relative;
+    left: 33px;
+    top: -46px;
+    font-size: 15,2px;
+    color: rgb(98, 98, 98);
+}
+.email{
+    width: 35px;
+    height: 35px;
+    top: -35px;
+    left: -4px;
+    position: relative;
+}
+.TextEmail{
+    width: 210px;
+    position: relative;
+    left: 33px;
+    top: -80px;
+    font-size: 15,2px;
+    color: rgb(98, 98, 98);
+}
+.telefono{
+    width: 20px;
+    height: 20px;
+    top: -55px;
+    left: 4px;
+    position: relative;
+}
+.TextTelefono{
+    width: 210px;
+    position: relative;
+    left: 33px;
+    top: -95px;
+    font-size: 15,2px;
+    color: rgb(98, 98, 98);
+}
+.actividades{
+    position: relative;
+    left: 340px;
+    top: -140px;
+    width: 450px;
+}
+.BarraC5{
+    height: 8px;
+    width: 85px;
+    top: -35px;
+    position: relative;
+    background-color: rgb(119, 118, 118);
+}
+.TextoActividades{
+    color:rgb(98, 98, 98);
+    font-size: 15,2px;
+    position: absolute;
+    top: 55px;
+}
+.Habilidades li{
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+}
+.Habilidades li::before{
+    content: "\2022";
+    padding-right: 8px;
+    color: green;
+}
